@@ -29,9 +29,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/modal.css">
-    <link rel="stylesheet" href="estilos/general.css">
-    <link rel="stylesheet" href="estilos/admin.css">
+    <link rel="stylesheet" href="../estilos/modal.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/admin.css">
     <script src="./jquery.js"></script>
     <title>TorinoFútbol: Admin - Reservas</title>
     <style>
@@ -302,8 +302,8 @@
                 <div style="font-weight: bold;">Estados de reserva</div>
                 <div class="modal_cerrar cerrar" id="modal_estado_salir">X</div>
             </div>
-            <img src="./imgs/estado_reservas.png" alt="estados" id="img_estados">
-            <img src="./imgs/estado_reservas_responsive.png" alt="estados" id="img_estados_responsive">
+            <img src="../imgs/estado_reservas.png" alt="estados" id="img_estados">
+            <img src="../imgs/estado_reservas_responsive.png" alt="estados" id="img_estados_responsive">
         </section>
     
         <!-- MODAL FALTA -->

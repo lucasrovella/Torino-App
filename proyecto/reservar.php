@@ -89,9 +89,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./jquery.js"></script>
-    <link rel="stylesheet" href="./estilos/general.css">
-    <link rel="stylesheet" href="./estilos/index.css">
-    <link rel="stylesheet" href="./estilos/modal.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/index.css">
+    <link rel="stylesheet" href="../estilos/modal.css">
     <title>Reservas</title>
     <style>
         
@@ -547,12 +547,12 @@
         <button type="submit" id="form-checkout__submit">Pagar</button>
         <progress value="0" class="progress-bar">Cargando...</progress>
         <!-- <div id="copyright">&copy; MercadoLibre SRL</div> -->
-        <img id="mplogo" src="./imgs/mercadopago.webp" alt="mercadopago">
+        <img id="mplogo" src="../imgs/mercadopago.webp" alt="mercadopago">
       </form>
     </div>
 
     <main>
-        <a href="./index.php"><img src="./imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
+        <a href="./index.php"><img src="../imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
         <section id="reservas">
             <h1 class="titulo_reserva" style="margin: 0;">Hacé tu reserva</h1><br>
             <form action="./generar_reserva.php" method="post" id="form_reserva">

@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/general.css">
-    <link rel="stylesheet" href="./estilos/index.css">
-    <link rel="stylesheet" href="./estilos/modal.css">
-    <link rel="stylesheet" href="./estilos/contacto.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/index.css">
+    <link rel="stylesheet" href="../estilos/modal.css">
+    <link rel="stylesheet" href="../estilos/contacto.css">
     <title>TorinoFútbol: Contacto</title>
     <style>
         @media(max-width: 650px){
@@ -63,7 +63,7 @@
     ?>
     <?php echo $respuesta_mail  ?>
     <main>
-        <a href="./index.php"><img src="./imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
+        <a href="./index.php"><img src="../imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
         <!-- MODAL -->
         <div id="modal_inicio_sesion">
             <div class="modal_nav">
@@ -105,7 +105,7 @@
             </div>
         </article>
         <article id="whatsapp_contacto">
-            ¡Recordá que también podés comunicarte con nosotros vía Whatsapp al <a href="https://wa.me/1159807762/?text=Hola!%20Quiero%20hacer%20una%20consulta%20sobre%20TorinoFutbol" target="_blank">1159807762</a>!
+            ¡Recordá que también podés comunicarte con nosotros vía Whatsapp al <a href="https://wa.me/1160103012/?text=Hola!%20Quiero%20hacer%20una%20consulta%20sobre%20TorinoFutbol" target="_blank">1159807762</a>!
         </article>
     </main>
     <?php include("./footer.php"); ?>

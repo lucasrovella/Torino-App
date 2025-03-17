@@ -1,6 +1,6 @@
 <nav>
     <div class="nav1" id="nav1_normal">
-        <a href="./index.php"><img class="logo" src="imgs/torinoLogoBlanco_2.png" alt="logoTorino"></a>
+        <a href="./index.php"><img class="logo" src="../imgs/torinoLogoBlanco_2.png" alt="logoTorino"></a>
         <div>
             <a class="opcion" id="iniciar_sesion" href="#">Iniciar Sesión</a>
             <a class="opcion" href="registro.php">Registrate</a>
@@ -10,8 +10,8 @@
 </nav>
 
 <div class="nav1" id="nav1_responsive">
-    <a href="index.php"><img class="logo" src="imgs/torinoLogoBlanco_2.png" alt="logoTorino"></a>
-    <img class="opcion" id="boton_desplegable" src="imgs/botondesplegable.png" alt="boton desplegable">
+    <a href="index.php"><img class="logo" src="../imgs/torinoLogoBlanco_2.png" alt="logoTorino"></a>
+    <img class="opcion" id="boton_desplegable" src="../imgs/botondesplegable.png" alt="boton desplegable">
 </div>
 
 <div class="navbar_desplegable">

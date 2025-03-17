@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/general.css">
-    <link rel="stylesheet" href="./estilos/registro.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/registro.css">
     <style>
         @media (min-width: 1450px){
             form
@@ -48,7 +48,7 @@
             .registro_container
             {
                 width: 100%;
-                background-image: url("./imgs/jugador_pelota11violeta.png");
+                background-image: url("../imgs/jugador_pelota11violeta.png");
                 background-size: cover;
                 background-repeat: no-repeat;
             }
@@ -115,8 +115,8 @@
 
     <main>
         <div style="display: block;">
-        <a href="./index.php"><img src="./imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
-            <img src="./imgs/torinoLogoBlanco_2.png" class="logo" alt="logoTorino">
+        <a href="./index.php"><img src="../imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
+            <img src="../imgs/torinoLogoBlanco_2.png" class="logo" alt="logoTorino">
         </div>
         <div class="registro_container">
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">

@@ -5,9 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/general.css">
-    <link rel="stylesheet" href="./estilos/registro.css">
-    <link rel="stylesheet" href="./estilos/admin.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/registro.css">
+    <link rel="stylesheet" href="../estilos/admin.css">
     <style>
 
         body,html{
@@ -49,7 +49,7 @@
             min-width: 45%;
             min-height: 100vh;
             background: linear-gradient(45deg, lavender, white);
-            background-image: url("../proyecto/imgs/fondo_admin2.jpeg");
+            background-image: url("../imgs/fondo_admin2.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
             border-left: 6px solid #8650fe;

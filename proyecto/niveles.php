@@ -6,10 +6,10 @@
                     <div class="item_texto">
                         <table>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Reservás con el 50%</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Reservás con el 50%</td>
                             </tr>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Cancelás hasta 24hs antes</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Cancelás hasta 24hs antes</td>
                             </tr>
                         </table>
                     </div>
@@ -21,16 +21,16 @@
                     <div class="item_texto">
                         <table>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>10% de descuento en canchas</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>10% de descuento en canchas</td>
                             </tr>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Cancelás hasta 12hs antes</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Cancelás hasta 12hs antes</td>
                             </tr>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Reservás con el 50%</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Reservás con el 50%</td>
                             </tr>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>10% de descuento en bebidas</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>10% de descuento en bebidas</td>
                             </tr>
                         </table>
                     </div>
@@ -42,16 +42,16 @@
                     <div class="item_texto">
                         <table>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>15% de descuento en canchas</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>15% de descuento en canchas</td>
                             </tr>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Cancelás hasta 12hs antes</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Cancelás hasta 12hs antes</td>
                             </tr>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Reservás con el 10%</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>Reservás con el 10%</td>
                             </tr>
                             <tr>
-                                <td><img src="./imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>25% de descuento en cualquier compra del buffet</td>
+                                <td><img src="../imgs/check.png" alt="Icono Falta" class="check_niveles"></td><td>25% de descuento en cualquier compra del buffet</td>
                             </tr>
                         </table>
                     </div>

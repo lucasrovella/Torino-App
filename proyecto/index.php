@@ -15,9 +15,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/index.css">
-    <link rel="stylesheet" href="./estilos/general.css">
-    <link rel="stylesheet" href="./estilos/modal.css">
+    <link rel="stylesheet" href="../estilos/index.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/modal.css">
     <title>Torino Fútbol: Reservá las mejores canchas</title>
     <style>
 
@@ -25,7 +25,7 @@
     {
         width: 100%;
         height: 300px;
-        background-image: url("./imgs/sinteticoHD.jpeg");
+        background-image: url("../imgs/sinteticoHD.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -39,7 +39,7 @@
         text-shadow: 1px 1px 30px black;
         padding: 70px 40px 70px 30px;
         margin: auto;
-        background-image: url("./imgs/jugador_pelota2.jpeg");
+        background-image: url("../imgs/jugador_pelota2.jpeg");
         background-repeat: no-repeat;
         background-size:cover;
         box-sizing: border-box;

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/index.css">
-    <link rel="stylesheet" href="./estilos/general.css">
-    <link rel="stylesheet" href="./estilos/modal.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/index.css">
+    <link rel="stylesheet" href="../estilos/modal.css">
     <title>Torino Fútbol: Reservá las mejores canchas</title>
     <style>
 
@@ -45,7 +45,7 @@
             .bienvenido
             {
                 font-size: 2.5rem;
-                background-image: url("./imgs/jugador_pelota7.png");
+                background-image: url("../imgs/jugador_pelota7.png");
             }
 
             .item_nivel{

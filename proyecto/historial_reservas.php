@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php session_start();?>
 <?php 
     if(!isset($_SESSION["nombre"]))
     {
@@ -12,9 +12,9 @@
     <meta charset="UTF-8">
     <script src="./jquery.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/general.css">
-    <link rel="stylesheet" href="./estilos/index.css">
-    <link rel="stylesheet" href="./estilos/historial.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/index.css">
+    <link rel="stylesheet" href="../estilos/historial.css">
     <title>TorinoFútbol: Tu Historial de Reservas</title>
     <style>
         @media(max-width: 960px){
@@ -70,7 +70,7 @@
         <?php include("./nav_online.php") ?>
 
         <main>
-        <a href="./index.php"><img src="./imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
+        <a href="./index.php"><img src="../imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
             <article class="historial">
                 <article id="filtros_historial" class="header_historial">
                     <form id="container_filtro" method="post" enctype="multipart/form-data">

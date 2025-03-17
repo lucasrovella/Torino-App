@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/general.css">
-    <link rel="stylesheet" href="estilos/index.css">
-    <link rel="stylesheet" href="./estilos/modal.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/index.css">
+    <link rel="stylesheet" href="../estilos/modal.css">
     <style>
 
         body{
@@ -100,8 +100,8 @@
                 </form>
             </div>
         </div>
-        <a href="./index.php"><img src="./imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
-            <img src="./imgs/torinoLogoBlanco_2.png" class="logo" alt="logoTorino">
+        <a href="./index.php"><img src="../imgs/left_arrow2.png" alt="Volver" id="arrow"></a>
+            <img src="../imgs/torinoLogoBlanco_2.png" class="logo" alt="logoTorino">
         </div>
 
     <div class="info_container">
@@ -116,33 +116,33 @@
     </div>
 
     <div class="container_cancha">
-        <img src="./imgs/canchas/f51.jpg" alt="cancha de 8" class="img_cancha">
+        <img src="../imgs/canchas/f51.jpg" alt="cancha de 8" class="img_cancha">
         <div class="descripcion_cancha">F5 A</div>
     </div>
 
     <div class="container_cancha">
         <div class="descripcion_cancha">F5 B</div>
-        <img src="./imgs/canchas/futbol5 2.jpg" alt="cancha de 8" class="img_cancha">
+        <img src="../imgs/canchas/futbol5 2.jpg" alt="cancha de 8" class="img_cancha">
     </div>
 
     <div class="container_cancha">
-        <img src="./imgs/canchas/7.jpeg" alt="cancha de 8" class="img_cancha">
+        <img src="../imgs/canchas/7.jpeg" alt="cancha de 8" class="img_cancha">
         <div class="descripcion_cancha">F7 A</div>
     </div>
 
     <div class="container_cancha">
         <div class="descripcion_cancha">F7 B</div>
-        <img src="./imgs/canchas/f7 b.jpeg" alt="cancha de 8" class="img_cancha">
+        <img src="../imgs/canchas/f7 b.jpeg" alt="cancha de 8" class="img_cancha">
     </div>
 
     <div class="container_cancha">
-        <img src="./imgs/canchas/f8 2.jpg" alt="cancha de 8" class="img_cancha">
+        <img src="../imgs/canchas/f8 2.jpg" alt="cancha de 8" class="img_cancha">
         <div class="descripcion_cancha">F8 A</div>
     </div>
 
     <div class="container_cancha">
         <div class="descripcion_cancha">F8 B</div>
-        <img src="./imgs/canchas/f8 3.jpg" alt="cancha de 8" class="img_cancha">
+        <img src="../imgs/canchas/f8 3.jpg" alt="cancha de 8" class="img_cancha">
     </div>
 
     <br><br><br>

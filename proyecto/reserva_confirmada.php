@@ -16,8 +16,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/general.css">
-    <link rel="stylesheet" href="./estilos/index.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/index.css">
     <title>TorinoFútbol: Reserva Confirmada</title>
     <style>
         body, html{
@@ -25,7 +25,7 @@
             min-width: 100%;
             width: 100%;
             height: auto;
-            background-image: url("./imgs/fondo_inicio3.jpeg");
+            background-image: url("../imgs/fondo_inicio3.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -99,7 +99,7 @@
             <div class="info_reserva" id="precio"><span style="color:darkviolet"></span></div>
             <br>
             <div id="contactate">Contactate para efectuar la seña:</div><br>
-            <div class="info_reserva"><span style="color:darkviolet">Tel:</span> <a href="https://wa.me/1159807762/?text=Hola!%20Me%20comunico%20para%20avisar%20mi%20seña!" target="_blank">1159807762</a></div><br>
+            <div class="info_reserva"><span style="color:darkviolet">Tel:</span> <a href="https://wa.me/1160103012/?text=Hola!%20Me%20comunico%20para%20avisar%20mi%20seña!" target="_blank">1160103012</a></div><br>
             <button class="boton_aceptar" id="volver">Volver al inicio</button>
         </div>
     </main>

@@ -14,9 +14,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/general.css">
-    <link rel="stylesheet" href="estilos/index.css">
-    <link rel="stylesheet" href="estilos/modal.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/index.css">
+    <link rel="stylesheet" href="../estilos/modal.css">
     <title>Torino Fútbol: Reservá las mejores canchas</title>
     <style>
         .notificacion_reservas{
@@ -44,14 +44,14 @@
 
         #info_usuario
         {
-            background-image: url("./imgs/fondo_contacto5.jpeg");
+            background-image: url("../imgs/fondo_contacto5.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
         }
 
         #info_faltas
         {
-            background-image: url("./imgs/tarjeta_roja.jpg");
+            background-image: url("../imgs/tarjeta_roja.jpg");
             background-repeat: no-repeat;
             background-size: contain;
             padding: 80px 45px;
@@ -175,7 +175,7 @@
             justify-content: center;
             padding: 45px;
             box-sizing: border-box;
-            background-image: url("./imgs/fondo_contacto5.jpeg");
+            background-image: url("../imgs/fondo_contacto5.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -376,7 +376,7 @@
             .bienvenido
             {
                 font-size: 2.5rem;
-                background-image: url("./imgs/jugador_pelota7.png");
+                background-image: url("../imgs/jugador_pelota7.png");
             }
 
             .item_nivel{
@@ -442,7 +442,7 @@
 
 
             #info_faltas{
-                background-image: url("./imgs/roja.png");
+                background-image: url("../imgs/roja.png");
             }
 
             #texto_niveles{
@@ -496,11 +496,11 @@
         <section id="panel_usuario">
             <article id="usuario" class="texto_2">
                 <h1 class="titulo_3 violeta" id="titulo_usuario"><?php echo $_SESSION["nombre"] . " " . $_SESSION["apellido"] ?></h1><br>
-                    <div class="datos_panel_usuario"><img src="./imgs/level2.png" alt="Icono Falta" class="icono_info"> Nivel: <?php echo $_SESSION["nivel"] ?></div>
-                    <div class="datos_panel_usuario"><img src="./imgs/calendario.png" alt="Icono Falta" class="icono_info"> Reservas: &nbsp;<span style="color:#8650fe"><?php echo $reservas ?></span> </div>
-                    <div class="datos_panel_usuario"><img src="./imgs/check.png" alt="Icono Falta" class="icono_info"> Asistencias: &nbsp;<span style="color:#8650fe"><?php echo $_SESSION["racha"] ?></span> </div>
-                    <div class="datos_panel_usuario"><img src="./imgs/falta.png" alt="Icono Falta" class="icono_info"> Faltas: &nbsp;<span style="color: red;"><?php echo $_SESSION["faltas"]?></span></div>
-                    <div class="datos_panel_usuario"><img src="./imgs/simbolo_dinero.png" alt="icono_saldo_a_favor" class="icono_info"> Saldo a Favor: &nbsp;<span style="color: #23d366;">$<?php echo $_SESSION["saldo_a_favor"]?></span></div>
+                    <div class="datos_panel_usuario"><img src="../imgs/level2.png" alt="Icono Falta" class="icono_info"> Nivel: <?php echo $_SESSION["nivel"] ?></div>
+                    <div class="datos_panel_usuario"><img src="../imgs/calendario.png" alt="Icono Falta" class="icono_info"> Reservas: &nbsp;<span style="color:#8650fe"><?php echo $reservas ?></span> </div>
+                    <div class="datos_panel_usuario"><img src="../imgs/check.png" alt="Icono Falta" class="icono_info"> Asistencias: &nbsp;<span style="color:#8650fe"><?php echo $_SESSION["racha"] ?></span> </div>
+                    <div class="datos_panel_usuario"><img src="../imgs/falta.png" alt="Icono Falta" class="icono_info"> Faltas: &nbsp;<span style="color: red;"><?php echo $_SESSION["faltas"]?></span></div>
+                    <div class="datos_panel_usuario"><img src="../imgs/simbolo_dinero.png" alt="icono_saldo_a_favor" class="icono_info"> Saldo a Favor: &nbsp;<span style="color: #23d366;">$<?php echo $_SESSION["saldo_a_favor"]?></span></div>
             </article>
             <article id="reservas">
                 <span class="titulo_3 violeta">Tus próximas reservas</span>
@@ -520,7 +520,7 @@
         
         <section id="avisar_senia">
             <div style="font-weight: bold;">Si tenés alguna consulta...</div>
-            <a id="wpp_web_senia" href="https://wa.me/1159807762/?text=Hola!%20Me%20comunico%20para%20hacer%20una%20consulta" target="_blank"><img src="./imgs/wppLogo.png" id="wpp_logo" alt="Logo Whatsapp">Comunicate con nosotros</a>
+            <a id="wpp_web_senia" href="https://wa.me/1159807762/?text=Hola!%20Me%20comunico%20para%20hacer%20una%20consulta" target="_blank"><img src="../imgs/wppLogo.png" id="wpp_logo" alt="Logo Whatsapp">Comunicate con nosotros</a>
         </section>
 
         <?php include("./niveles.php") ?>
